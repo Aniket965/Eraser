@@ -21,6 +21,7 @@ let package = Package(
 ## Usage
 ```swift
 import Darwin
+import Eraser
 
 print("swift")
 
