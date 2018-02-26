@@ -1,7 +1,9 @@
 # Eraser ⌫
 
-Tool for Erasing and overwriting the previous output in terminal.
-## Installation
+> Swift Package for Erasing and overwriting the previous output in terminal.
+----
+
+## ⚙️ Installation
 ```swift
 import PackageDescription
 
@@ -18,7 +20,7 @@ let package = Package(
     ]
 )
 ```
-## Usage
+## 📗 Usage
 ```swift
 import Darwin
 import Eraser
