@@ -3,6 +3,8 @@
 > Swift Package for Erasing and overwriting the previous output in terminal.
 ----
 
+[![Travis](https://img.shields.io/travis/Aniket965/Eraser.svg?style=for-the-badge)](https://travis-ci.org/Aniket965/Eraser)
+
 ## ⚙️ Installation
 ```swift
 import PackageDescription
