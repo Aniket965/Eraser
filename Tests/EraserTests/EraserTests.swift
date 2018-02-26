@@ -1,12 +1,12 @@
 import XCTest
-@testable import CLIUpdater
+@testable import Eraser
 
-class CLIUpdaterTests: XCTestCase {
+class EraserTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(CLIUpdater().text, "Hello, World!")
+        XCTAssertEqual(Eraser().text, "Hello, World!")
     }
 
 

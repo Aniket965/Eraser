@@ -31,13 +31,13 @@ public func UpdateCLI(msg:String,delay:UInt32) {
     print("\(moveUpCmd.ansicode)\(clearCmd.ansicode)\(msg)")
     usleep(delay)
 }
-public func ClearCLI() {
+public func erase() {
     print("\(moveUpCmd.ansicode)\(clearCmd.ansicode)")
 }
 
 public func rUpdateCLI(msg:String,delay:UInt32) -> String {
     return "\(moveUpCmd.ansicode)\(clearCmd.ansicode)\(msg)"
 }
-public func rClearCLI() -> String {
+public func rErase() -> String {
     return "\(moveUpCmd.ansicode)\(clearCmd.ansicode)"
 }

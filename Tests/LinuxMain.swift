@@ -1,6 +1,6 @@
 import XCTest
-@testable import CLIUpdaterTests
+@testable import EraserTests
 
 XCTMain([
-    testCase(CLIUpdaterTests.allTests),
+    testCase(EraserTests.allTests),
 ])
